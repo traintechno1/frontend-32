@@ -1,0 +1,46 @@
+*{
+
+    font-family: "Poppins", sans-serif;
+}
+
+.para{
+    text-align: justify;
+    letter-spacing: 0.75px;
+    word-spacing: 2px;
+    line-height: 23px;
+    text-indent: 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bold-text{
+    font-weight: 900;
+    font-style: italic;
+    font-variant: all-petite-caps;
+}
+
+
+.heading{
+    text-align: center;
+    text-shadow: -1px 2px 2px #e61616;
+    color: #919cea;
+    text-transform: uppercase;
+}
+
+.text-box{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #919cea;
+    overflow-y: scroll;
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis; */
+}
+
+.lion-image{
+    height: 400px;
+    filter: drop-shadow(6px 6px 7px #000000); 
+}
+
+.nature{
+    height: 400px;
+    width: 400px;
+}
