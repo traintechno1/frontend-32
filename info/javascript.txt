@@ -1,0 +1,311 @@
+
+    -- JS is a functional programming language.
+    -- in JS we write the scripts which gets executed in the web browser.
+    -- to run JS the web browser uses v8 engine.
+
+    JS can be included in the web page using,
+     - inline JS
+     - internal JS (included in a html through script tag)
+     - external JS (we create a new file with .js as extention)
+
+
+    Operators:
+
+    Operators are the symbols which performs some kind of operation on the operands.
+
+    1) Arithmatic operators:
+
+    i) Addition(+): 
+        10 + 20 = 30
+
+        let a = 20;
+        let b = 30;
+        let c = a + b; // valid addition
+
+        20 = a + b;  // invalid
+
+    ii) Substraction(-):
+
+         c = a - b
+
+    iii) Multiplication(*):
+
+         c = a * b
+
+    iv) Division(/):
+
+         c = a / b
+
+    v) Modulo(%) : This operator gives us remainder
+        c = a % b;
+
+    2) Comparison Operator:
+            the result of a comparison operator is boolean.
+        i) Greater than (>):
+            c = a > b;
+        ii) Greater than equal to (>=):
+            c = a >= b;
+        iii) Less than (<):
+            c = a < b;
+        iv) Less than equal (<=):
+            c = a <= b;
+        v) equal to(==):
+            c = a==b;
+        vi) Not equal to(!=):
+            c = a!=b;
+
+    
+    3) Logical Operator:
+
+    Logical operators works on boolean values and return a resulting boolean value.
+
+        i) AND(&&):
+        input: two or more boolean values
+        output: always a single boolean value
+
+        When all the inputs are true the output will be true, even if single input is false the o/p will be false.
+
+        c = a && b;
+
+        truth table:
+
+        a       b           result
+        true   true         true
+        true   false        false
+        false  true         false
+        false  false        false
+
+        ii) OR(||):
+        input: two or more boolean values
+        output: always a single boolean value
+
+        even if a single input is true the o/p will be true, when all the inputs are false then the result will be false.
+
+        c = a || b;
+
+        truth table:
+
+        a       b           result
+        true   true         true
+        true   false        true
+        false  true         true
+        false  false        false
+
+        iii) NOT(!)
+
+        input: it takes only one input
+        Output: it returns only one output
+
+        c = !a;
+
+        truth table:
+
+        a        result
+        true      false
+        false      true
+
+
+    4) Ternary Operator(?:):
+
+        condition ? "if the condition is true" : "if the condition is false"
+
+        a > b ? "A is greater" : "B is greater"
+
+    5) Increment/Decrement:
+
+        let a = 10;
+
+        i) Pre increment: ++
+
+        in pre first the value gets changed and then it gets used.
+
+
+        let b = ++a;
+
+        console.log(a); // a
+        console.log(b); // b
+
+
+
+        ii) Post increment: ++
+
+        in post first the value gets used and then changed.
+        a++;
+
+        iii) Pre Decrement: --
+
+        in pre first the value gets changed and then it gets used.
+
+
+        let b = --a;
+
+        console.log(a); // a
+        console.log(b); // b
+
+
+
+        iv) Post Decrement: --
+
+        in post first the value gets used and then changed.
+        a--;
+
+
+
+
+        Conditional Statements:
+
+        1) if -> 
+
+            syntax:
+                if(condition){
+
+                }
+        
+        2) if - else ->
+
+            syntax:
+
+                if(condition){
+
+                }else{
+
+                }
+
+        3) else if ladder:
+
+            if(condition){
+
+            }else if(condition2){
+
+            }else if(condition3){
+
+            }else{
+
+            }
+
+        4) Nested if - else:
+
+            if(condition){
+                if(condition2){
+
+                }else{
+                    if(condition){
+
+                    }else{
+
+                    }
+                }
+            }else{
+                if(condition){
+
+                }else{
+                    if(condition3){
+
+                    }
+                }
+            }
+
+        5) switch case:
+
+            switch(value){
+                case value1: 
+                        // logic
+                break;
+                case value2: 
+                        // logic
+                break;
+                case value3: 
+                        // logic
+                break;
+                case value4: 
+                        // logic
+                break;
+                default:
+                break;
+            }
+
+
+
+            Looping statements:
+
+            1) for -> 
+
+
+            syntax 
+                for(initialiser; condition; increment/decrement){
+
+                }
+
+                ex:
+
+                for(let i = 1; i <=10; i++){
+                    console.log(i);
+                }
+
+            2) while
+
+                syntax:
+
+                    let initialiser;
+                    while(condition){
+                        
+                        increment/decrement;
+                    }
+
+            3) do-while
+
+                syntax:
+                
+                let initialiser;
+
+                do{
+                    //logic
+                    increment/decrement;
+                }while(condition);
+
+            
+            Array:
+
+
+        Array is a collection of elements.
+
+
+        let array_name = [];
+
+
+
+            Function:
+
+        -- function is used to create a reusable code.
+        -- we declare function once and reuse it as many times as we want.
+
+        syntax:
+
+            1) 
+            // this is called as function declaration
+            function <function_name>(){
+                // function body
+            }
+
+            // function call
+            function_name();
+            function_name();
+            function_name();
+
+            2) arrow function:
+
+            let function_name = () => {
+
+            }
+
+
+            Object:
+
+
+        const obj_name = {
+            "key" : "value",
+            "key" : "value",
+            "key" : "value",
+            "key" : "value",
+            "key" : "value",
+        }
