@@ -253,61 +253,146 @@ const grade = "A";
 // add(100, 400);
 
 
-const person = [
-    {
-        first_name: "Rohit",
-        "last_name": "Satpute",
-        email: "rohit.s@gmail.com",
-        mobile: 9173612212,
-        gender: "Male",
-        address: {
-            line1: "Near ABC school",
-            line2: "Commonwealth society",
-            city: "Pune",
-            state: "MH",
-            country: "India",
-            pin: 411021
-        }
-    },
-    {
-        first_name: "Rohit",
-        "last_name": "Satpute",
-        email: "rohit.s@gmail.com",
-        mobile: 9173612212,
-        gender: "Male",
-        address: {
-            line1: "Near ABC school",
-            line2: "Commonwealth society",
-            city: "Pune",
-            state: "MH",
-            country: "India",
-            pin: 411021
-        }
-    },
-    {
-        first_name: "Rohit",
-        "last_name": "Satpute",
-        email: "rohit.s@gmail.com",
-        mobile: 9173612212,
-        gender: "Male",
-        address: {
-            line1: "Near ABC school",
-            line2: "Commonwealth society",
-            city: "Pune",
-            state: "MH",
-            country: "India",
-            pin: 411021
-        }
-    }
-]
+// const person = [
+//     {
+//         first_name: "Rohit",
+//         "last_name": "Satpute",
+//         email: "rohit.s@gmail.com",
+//         mobile: 9173612212,
+//         gender: "Male",
+//         address: {
+//             line1: "Near ABC school",
+//             line2: "Commonwealth society",
+//             city: "Pune",
+//             state: "MH",
+//             country: "India",
+//             pin: 411021
+//         }
+//     },
+//     {
+//         first_name: "Rohit",
+//         "last_name": "Satpute",
+//         email: "rohit.s@gmail.com",
+//         mobile: 9173612212,
+//         gender: "Male",
+//         address: {
+//             line1: "Near ABC school",
+//             line2: "Commonwealth society",
+//             city: "Pune",
+//             state: "MH",
+//             country: "India",
+//             pin: 411021
+//         }
+//     },
+//     {
+//         first_name: "Rohit",
+//         "last_name": "Satpute",
+//         email: "rohit.s@gmail.com",
+//         mobile: 9173612212,
+//         gender: "Male",
+//         address: {
+//             line1: "Near ABC school",
+//             line2: "Commonwealth society",
+//             city: "Pune",
+//             state: "MH",
+//             country: "India",
+//             pin: 411021
+//         }
+//     }
+// ]
 
+// console.log(person);
 
-console.log(person)
-
-person[0].mobile = 8000123434;
+// person[0].mobile = 8000123434;
 // // delete person.address;
 // person.college = "Test college";
 // console.log(person["gender"]);
 // console.log(person.email);
 // console.log(person);
 // console.log(person.address.country);
+
+
+// const resolveValue = () =>{
+//     return 1000;
+// }
+
+// let userName = "nikhil.karwade@gmail.com";
+// let value = 1000;
+// let quote = '\"The Journey of a value miles begins with one step\"';
+// let quote = '\"The Journey of a ' + value + ' miles begins with one step\"';
+// let quote = `The Journey of a ${resolveValue()} miles begins with one step`;
+
+// console.log(quote);
+
+
+// let fullName = "Nikhil Karwade is a react student";
+
+// console.log(fullName.length);
+// console.log(fullName);
+// console.log(fullName.charAt(5));
+// console.log(fullName.charCodeAt(0));
+// console.log(fullName.concat(" is a react student"));
+// console.log(fullName.endsWith("de"));
+// console.log(fullName.startsWith("Nikhil"));
+// console.log(fullName.includes("a"));
+// console.log(fullName.indexOf("z"));
+// console.log(fullName.lastIndexOf("i"));
+// console.log(fullName.padEnd(20, "$"));
+// console.log(fullName.padStart(20, "$"));
+// console.log(fullName.repeat(3));
+// console.log(fullName.slice(4, 8));
+// console.log(fullName.toUpperCase());
+// console.log(fullName.toLowerCase());
+// console.log(fullName.trimStart());
+// console.log(fullName.trim());
+// console.log(fullName.trimEnd());
+// console.log(fullName.replaceAll("i", 'r'));
+// console.log(fullName.split(" "));
+
+
+
+// var a = 100;
+
+// hoisting
+// console.log(a);
+// console.log(b);
+// var a = 200;
+
+// function print(){
+//     let a = 300;
+//     console.log(a);
+// }
+
+// a = 400;
+// console.log("a:" + a);
+// print();
+
+
+// let a  = 300;
+// let a  = 400;
+
+
+// console.log(c);
+
+// const c = 300;
+// c = 400;
+// console.log(c);
+
+
+// Document Object Model
+
+// document.getElementById("heading").innerHTML = "<p>Heading assigned using JS</p>"
+// document.getElementById("heading").style.color = "red";
+
+
+// function clickMe(){
+//     let result =  300 + 400 + 500;
+//     document.getElementById("heading").innerText = result;
+// }
+
+
+
+
+
+
+
